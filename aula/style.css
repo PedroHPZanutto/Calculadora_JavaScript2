@@ -1,0 +1,21 @@
+.n1 {
+    font-family: Arial;
+    font-size: 22px;
+}
+.n2{
+    font-family: Arial;
+    font-size: 22px;
+}
+button {
+    background-color: cornflowerblue;
+    padding: 12px;
+    color: white;
+}
+.resultado{
+    font-family: Arial;
+    font-size: 22px;
+}
+
+.btn button {
+    background-color: red;
+}

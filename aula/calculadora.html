@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+
+    <script>
+        let n1 = 20;
+        let n2 = 15;
+
+        console.log("Soma: " + (n1 + n2));
+        console.log("Subtração: " + (n1 - n2));
+        console.log("Multiplicação: " + (n1 * n2));
+        console.log("Divisão: " + (n1 / n2));
+        n1++; //Incremento
+        console.log("Número 1 após incremento: " + n1);
+
+        n2--; //Decremento
+        console.log("Número 2 após decremento: " + n2);
+
+    </script>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <div class="n1">
+      <label>Número 1:</label>
+      <br>
+      <input type="text" required>
+        
+      </div>
+      <br>
+      <div class="n2">
+        <label>Número 2:</label>
+        <br>
+        <input type="text" required>
+      </div>
+      <br>
+      <button>Somar</button>
+      <button>Subtrair</button>
+      <button>Multiplicar</button>
+      <button>Dividir</button> 
+      <div class="btn">
+      <button>Limpar</button>
+      </div>
+      <br>
+      <div class="resultado">
+        <label>Resultado:</label>
+        <br>
+        <input type="text" required>
+        <br><br>
+        <button>Alternar Tema</button>
+      
+</body>
+</html>
